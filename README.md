@@ -26,15 +26,14 @@ Modern `.pptx` files are actually compressed archives containing XML. This tool:
    
 &ensp;<img width="410" height="355" alt="image" src="https://github.com/user-attachments/assets/f211d8c4-ee82-4ffc-abdd-108057e172fe" />
 
-
-2.  Run the script:
+1.  Run the script:
     ```bash
     python pptx_replacer.py
     ```
-3.  **Select File:** Click **Browse** to choose your `.pptx` file.
-4.  **Search/Replace:** Enter the strings you wish to swap (e.g., Search: `Noto Sans Symbols`, Replace: `Verdana`).
-5.  **Run:** Click **Run Replacement**. 
-6.  The new file will appear in the same folder as the original.
+2.  **Select File:** Click **Browse** to choose your `.pptx` file.
+3.  **Search/Replace:** Enter the strings you wish to swap (e.g., Search: `Noto Sans Symbols`, Replace: `Verdana`).
+4.  **Run:** Click **Run Replacement**. 
+5.  The new file will appear in the same folder as the original.
 
 ## ⚠️ Notes
 * **Formatting:** You can also use the tool to replace plain text in the XML (text on the slide!). If a word in a slide has mixed formatting (e.g., the first half is **bold** and the second isn't), the XML may split the string, preventing a match.
